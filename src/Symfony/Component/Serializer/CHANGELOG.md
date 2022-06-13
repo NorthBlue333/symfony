@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+6.2
+---
+
+ * Change visibility of properties and methods in `Symfony\Component\Serializer\Normalizer\AbstractObjectNormalizer` to enable code reusability in custom ObjectNormaliers
+
 6.1
 ---
 

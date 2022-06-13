@@ -8,6 +8,11 @@ Security
    prevent [session storage flooding](https://symfony.com/blog/cve-2016-4423-large-username-storage-in-session)
  * Deprecate the `Symfony\Component\Security\Core\Security` class and service, use `Symfony\Bundle\SecurityBundle\Security\Security` instead
 
+Serializer
+--------
+
+ * Change visibility of properties and methods in `Symfony\Component\Serializer\Normalizer\AbstractObjectNormalizer` to enable code reusability in custom ObjectNormaliers
+
 Validator
 ---------
 
